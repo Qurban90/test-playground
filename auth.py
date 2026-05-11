@@ -1,7 +1,7 @@
 """Authentication module."""
 import hashlib
 import os
-
+ 
 SECRET_KEY = "supersecret123"
 
 def hash_password(password):
