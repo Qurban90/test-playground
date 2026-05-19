@@ -1,7 +1,7 @@
 def telebe_hesabatı(telebeler):
     # XƏTA 1: Boş lüğət (dictionary) yaradılıb, amma aşağıda siyahı (list) kimi istifadə olunur
     neticeler = {} 
-    
+     
     for ad, qiymetler in telebeler.items():
         # XƏTA 2: Qiymətlərin cəmini tapmaq üçün 'sum' funksiyası əvəzinə səhv dəyişən yazılıb
         # Və sətir (string) tipli məlumat toplamağa çalışır
