@@ -6,7 +6,7 @@ def telebe_hesabatı(telebeler):
         # XƏTA 2: Qiymətlərin cəmini tapmaq üçün 'sum' funksiyası əvəzinə səhv dəyişən yazılıb
         # Və sətir (string) tipli məlumat toplamağa çalışır
         cem = sum(qiymetler)
-        
+         
         # XƏTA 3: Sıfıra bölünmə (ZeroDivisionError) təhlükəsi var, əgər tələbənin qiyməti yoxdursa
         ortalama = cem / len(qiymetler)
         
